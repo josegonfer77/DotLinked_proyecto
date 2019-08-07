@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/eventos"
+        android:enabled="true"
+        android:icon="@drawable/iconoeventostab"
+        android:title="Eventos"
+        app:showAsAction="always"
+         />
+    <item
+        android:id="@+id/notificaciones"
+        android:enabled="true"
+        android:icon="@drawable/icononotificacionestab"
+        android:title="Notificaciones"
+        app:showAsAction="always"
+         />
+    <item
+        android:id="@+id/quejas"
+        android:enabled="true"
+        android:icon="@drawable/iconoquejastab"
+        android:title="Quejas"
+        app:showAsAction="always"
+         />
+    <item
+        android:id="@+id/reservacitas"
+        android:enabled="true"
+        android:icon="@drawable/iconoquejastab"
+        android:title="Reserva Citas"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/seguimientomedico"
+        android:enabled="true"
+        android:icon="@drawable/iconoquejastab"
+        android:title="Seguimiento medico"
+        app:showAsAction="never"/>
+
+
+</menu>
