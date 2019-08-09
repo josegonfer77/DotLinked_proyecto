@@ -18,7 +18,8 @@
         android:background="@color/azuldotlinked"
         android:elevation="4dp"
         android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
-        app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        />
 
     <!-- Resto de la interfaz de usuario -->
     <FrameLayout

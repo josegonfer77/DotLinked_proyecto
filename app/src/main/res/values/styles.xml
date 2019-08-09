@@ -8,4 +8,15 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="Calendario" parent="AppTheme">
+        <item name="colorAccent">@color/azul</item>
+
+        <item name="android:background">@color/blanco</item>
+        <item name="android:dateTextAppearance">@color/colorAccent</item>
+        <item name="android:weekDayTextAppearance">@color/colorAccent</item>
+
+
+
+    </style>
+
 </resources>
