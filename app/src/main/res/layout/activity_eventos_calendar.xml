@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/azuldotlinked"
+        android:elevation="4dp"
+        android:theme="@style/Calendario"
+
+        />
+
+    <CalendarView
+        android:layout_below="@+id/my_toolbar"
+        android:id="@+id/calendarView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:dateTextAppearance="@style/Calendario"
+        android:firstDayOfWeek="2"
+        android:focusedMonthDateColor="@style/Calendario"
+        android:theme="@style/Calendario"
+
+        android:weekDayTextAppearance="@style/TextAppearance.AppCompat.Small"
+
+
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+
+        android:id="@+id/listaeventos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/calendarView"
+        android:layout_marginTop="0dp"
+        android:theme="@style/Calendario"/>
+
+
+</RelativeLayout>
